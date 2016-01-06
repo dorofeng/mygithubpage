@@ -1,0 +1,129 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/hackduke.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    
+  </head>
+
+  <body>
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <header>
+        <div id="header-content">
+          <div id="header-title">
+            <h1>HackDuke Branding</h1>
+          </div>
+          <ul id="header-nav">
+            <li><a href="#about" class = "nav-buttons">ABOUT</a></li>
+            <li><a href="#resume" class = "nav-buttons">RESUME</a></li>
+            <li><a href="#portfolio-section" class = "nav-buttons">PORTFOLIO</a></li>
+            <li><a href="#contact" class = "nav-buttons">CONTACT</a></li>
+          </ul>
+        </div> <!-- end header content-->
+    </header> <!-- end header -->
+
+    <section id="about">
+      <div id="aboutcontainer">      
+          <div id="abouttext">
+            <p>HackDuke is Duke University's annual hackathon and the premier collegiate hackathon addressing social good. As the brand manager for its marketing team, I design branding assets and promotional material for the event as well as graphics for swag. Each year we have a different subtheme for the event. Because 2015 was filled with a variety social movements and advances in civil rights, we decided on a subtheme of social inclusivity. Our HackKitty mascot is designed to portray different topics of this theme.</p>
+          </div>
+        </div><!--/aboutcontainer-->
+    </section>
+
+    <section id="port-images">
+      <div class="zoom-gallery">
+          <img src="img/hackdukeshirtfront.png" /><img src="img/hackdukesweatshirtfront.png" /><img src="img/finalhackkittytshirtlogo.png" /><img src="img/hackkittyfrontgray.png" /><img src="img/hackdukeshirtback.png" /><img src="img/hackdukesweatshirtback.png" /><img src="img/hackkittyfrontred.png" /><img src="img/hackkittyback.png" /><img src="img/GroupKitties.png" /><img src="img/WorldKitty.png" /><img src="img/GenderKitty.png" /><img src="img/PrideKitty.png" />
+      </div>
+      <img src="img/hackdukebanner.png" id="hackdukebanner"/>
+      <div id="bottomnav">
+        <a href="#home" class = "bottomnavbutton"><span class="faa-horizontal"> </span> PREVIOUS</a>
+        <a href="#home" class = "bottomnavbutton">HOME</a>
+        <a href="#home" class = "bottomnavbutton">NEXT <span class="faa-horizontal"> </span></a>
+      </div>
+    </section>
+
+    <footer>
+        <div id="footertext">
+          <h5>Built with <span class="faa-pulse animated"><span class="fa fa-heart">  </span></span> in Chicago</h5>
+          <h5>© Dorothy Feng 2016</h5>
+        </div>
+        <ul id="footericons">
+          <li><a href="https://www.behance.net/dorofengc19e"><span class="fa fa-behance"></span></a></li>
+          <li><a href="https://www.linkedin.com/in/dorothy-feng-0328a4ab"><span class="fa fa-linkedin"></span></a></li>
+          <li><a href="https://github.com/dorofeng"><span class="fa fa-github"></span></a></li>
+          <li><a href="https://open.spotify.com/user/1232176922"><span class="fa fa-spotify"></span></a></li>
+        </ul>
+    </footer>
+
+
+    <a href="#0" class="cd-top">Top</a>
+
+    <!-- script for porfolio -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jQuery.backToTop.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+      $('.zoom-gallery').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        closeOnContentClick: false,
+        closeBtnInside: false,
+        mainClass: 'mfp-with-zoom mfp-img-mobile',
+        image: {
+          verticalFit: true,
+          titleSrc: function(item) {
+            return item.el.attr('title') + ' &middot; <a class="image-source-link" href="'+item.el.attr('data-source')+'" target="_blank">image source</a>';
+          }
+        },
+        gallery: {
+          enabled: true
+        },
+        zoom: {
+          enabled: true,
+          duration: 300, // don't foget to change the duration also in CSS
+          opener: function(element) {
+            return element.find('img');
+          }
+        }
+        
+      });
+      });
+    </script> 
+    <script src="js/jquery.localscroll.js" type="text/javascript"></script> 
+    <script src="js/jquery.scrollTo.js" type="text/javascript"></script> 
+    <script type="text/javascript">
+      $(document).ready(function() {
+         $('#header-nav').localScroll({duration:800});
+      });
+    </script>
+
+    
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+    </script>
+  </body>
+</html>

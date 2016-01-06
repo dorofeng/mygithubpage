@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="231px" height="53px" viewBox="0 0 231 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>WORKworkheader</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="205.174127%" y1="-36.4611076%" x2="-9.20318738%" y2="77.4701416%" id="linearGradient-1">
+            <stop stop-color="#0039FF" offset="0%"></stop>
+            <stop stop-color="#005CFD" offset="18.2907931%"></stop>
+            <stop stop-color="#00B1F7" offset="62.8371833%"></stop>
+            <stop stop-color="#00B1F7" offset="62.8371833%"></stop>
+            <stop stop-color="#00B8F6" offset="66.651053%"></stop>
+            <stop stop-color="#00B8F6" offset="66.651053%"></stop>
+            <stop stop-color="#00F8F1" offset="100%"></stop>
+            <stop stop-color="#FF00B7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-604.000000, -1575.000000)" font-size="72" font-family="Porter" fill="url(#linearGradient-1)" font-weight="bold">
+            <g id="Group" sketch:type="MSLayerGroup">
+                <text id="WORK" sketch:type="MSTextLayer">
+                    <tspan x="603" y="1626.58333" fill="#FFFFFF">WORK</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
