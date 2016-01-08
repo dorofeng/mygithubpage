@@ -297,6 +297,7 @@ ul#header-nav li a:hover{
 #aboutcontainer {
     margin: auto;
     width: 80%;
+    max-width: 960px;
     min-height:470px;
     overflow:hidden;
 }
@@ -655,7 +656,7 @@ ul#social-icons .fa {
 /* portfolio nav buttons */
 #portfolio-section .container-ptfl {
     position: relative;
-    width: 960px;
+    width: 80%;
     margin: 0 auto;
     min-height:400px;
     overflow:hidden;
@@ -684,7 +685,7 @@ ul#social-icons .fa {
     height: 37px;
     width: 150px;
     font-size: 15px;
-    padding: 8px 50px 8px 50px;
+    padding: 5px 40px 5px 40px;
     text-decoration: none;
     border: 2px solid #4A4A4A;
     color: #4A4A4A;
@@ -766,7 +767,8 @@ ul#social-icons .fa {
 
 .portfolio .text-title {
     font-family: 'porterbold', sans-serif;
-    font-size: 21px;
+    /*font-size: 21px;*/
+    font-size: 100%;
 }
 
 .portfolio .text-descrip {
@@ -949,22 +951,6 @@ ul#footericons .fa {
     background-color: #4A4A4A;
 }
 
-@media only screen and (min-width: 768px) {
-  .cd-top {
-    right: 20px;
-    bottom: 20px;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .cd-top {
-    height: 60px;
-    width: 60px;
-    right: 30px;
-    bottom: 30px;
-  }
-}
-
-
 
 
 
@@ -1062,9 +1048,241 @@ ul#footericons .fa {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+/* mobile portrait */
+@media screen and (min-width:320px){
+
+    #header-content {
+    height: 550px;
 }
+    #header-title {
+    padding-top: 100px;
+    margin: 0px 20px;
+    }
+
+    ul#header-nav li {
+    display:none;
+    }
+
+    #profilecontainer {
+    width: 100%;
+    height: 350px;
+    }
+
+    #aboutcontainer #profpic {
+    float:none;
+    margin-right: 0px;
+    }
+
+    .row {
+        display: block;
+        position: relative;
+        padding-left: 0px;
+    }
+    
+    #didaimg {
+        display:none;
+    }
+
+    #dorologoimg {
+        display:none;
+    }
+
+    #mpslogo {
+        display:none;
+    }
+
+    #rswlogo {
+        display:none;
+    }
+
+    #filters li {
+        padding:3px;
+    }
+
+    #filters li span {
+        display:block;
+        padding:5px 15px;
+        height:auto;
+        width: auto;
+    }
+
+    #portfoliolist .portfolio {
+        width:100%;
+    }
+
+    ul#footericons li a{
+    width: 15px;
+    }
+
+}
+
+/* mobile landscape */
+@media screen and (min-width:480px){
+
+    #header-content {
+    height: 700px;
+    }
+
+    ul#header-nav li {
+    display:inline;
+    padding:10px;
+    }
+
+    .nav-buttons {
+    font-size: 10px;
+    padding:8px 20px 8px 20px;
+    }
+    .row {
+    display: block;
+    position: relative;
+    padding-left: 0px;
+    }
+
+    #header-title {
+    padding-top: 130px;
+    }
+
+    #filters li span {
+        margin:auto;
+        max-width: 80%;
+        padding:10px 15px;
+    }
+
+    #portfoliolist .portfolio {
+        width:80%;
+    }
+
+    ul#footericons li a{
+    width: 15px;
+}
+
+    ul#footericons li a{
+    width: 30px;
+}
+
+} 
+
+/* ipad portrait */
+@media screen and (min-width:768px){
+    #header-content {
+    height: 750px;
+    }
+    .cd-top {
+    right: 20px;
+    bottom: 20px;
+    } 
+
+    #header-title {
+    padding-top: 200px;
+    margin: 0px 20px;
+    }
+
+    ul#header-nav li {
+    padding:20px;
+    }
+
+    .nav-buttons {
+    width: 100px;
+    font-size: 14px;
+    padding:8px 35px 8px 35px;
+    }
+
+    .row {
+    display: block;
+    position: relative;
+    padding-left: 250px;
+    }
+
+    #profilecontainer {
+        height:0px;
+    }
+
+    #aboutcontainer #profpic {
+        float:left;
+        margin-right: 30px;
+    }
+
+    #didaimg {
+        display: inline;
+    }
+
+    #dorologoimg {
+        display: inline;
+    }
+
+    #mpslogo {
+        display: inline;
+    }
+
+    #rswlogo {
+        display: inline;
+    }
+
+    #filters li {
+        padding:10px;
+    }
+
+    #filters li span {
+        font-size: 12px;
+        display:inline;
+        padding:5px 20px;
+        height:37px;
+        width: 150px;
+    }
+
+    #portfoliolist .portfolio {
+        width:40%;
+    }
+
+    ul#footericons li a{
+    width: 40px;
+}
+
+} 
+
+
+/* browser, ipad landscape */
+@media screen and (min-width:1024px){
+    .cd-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
+    }
+
+    .nav-buttons {
+    width: 150px;
+    font-size: 15px;
+    padding:8px 50px 8px 50px;
+    }
+
+    #portfoliolist .portfolio {
+        width:33%;
+    }
+
+} 
+
+@media screen and (min-width:1150px){
+    #filters li {
+        padding:20px;
+    }
+    #filters li span {
+        font-size: 15px;
+        padding:8px 40px;
+    }
+}
+
+/* browser */
+@media screen and (min-width:1200px){
+
+    .portfolio .text-title {
+    font-size: 21px;
+    }
+
+} 
+
+/* browser */
+@media screen and (min-width:1600px){} 
 
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
