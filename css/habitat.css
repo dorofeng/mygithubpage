@@ -573,9 +573,169 @@ ul#footericons .fa {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+/* mobile portrait */
+@media screen and (min-width:320px){
+
+    #header-content {
+    height: 300px;
+    }
+    #header-title {
+    padding-top: 80px;
+    margin: 0px 20px;
+    font-size: 130%;
+    }
+
+    ul#header-nav li {
+    display:none;
+    }
+
+    #aboutcontainer {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .zoom-gallery img {
+    max-height: 400px;
 }
+
+    #bottomnav {
+     padding: 10px 0px 70px 0px;
+    }
+
+    .bottomnavbutton {
+    font-size: 10px;
+    padding:8px 30px 8px 30px;
+    margin: 0px;
+    }
+
+    ul#footericons li a{
+    width: 15px;
+    }
+
+
+}
+
+/* mobile landscape */
+@media screen and (min-width:480px){
+
+    #header-content {
+    height: 400px;
+    }
+
+    #header-title{
+      font-size: 150%
+    }
+
+    ul#header-nav li {
+    display:inline;
+    padding:10px;
+    }
+
+    .nav-buttons {
+    font-size: 10px;
+    padding:8px 20px 8px 20px;
+    }
+
+    #aboutcontainer {
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+
+    .zoom-gallery img {
+    max-height: 500px;
+}
+
+    #bottomnav {
+     padding: 30px 30px 90px 30px;
+    } 
+    .bottomnavbutton {
+    font-size: 12px;
+    padding: 8px 30px 8px 30px;
+    margin:10px;
+    }
+
+
+    ul#footericons li a{
+    width: 15px;
+}
+
+    ul#footericons li a{
+    width: 30px;
+}
+
+} 
+
+/* ipad portrait */
+@media screen and (min-width:768px){
+    #header-content {
+    height: 410px;
+    }
+    .cd-top {
+    right: 20px;
+    bottom: 20px;
+    } 
+
+    #header-title {
+    padding-top: 100px;
+    margin: 0px 20px;
+    font-size: 200%;
+    }
+
+    ul#header-nav li {
+    padding:20px;
+    }
+
+    .nav-buttons {
+    width: 100px;
+    font-size: 14px;
+    padding:8px 35px 8px 35px;
+    }
+
+    #aboutcontainer {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+
+    #bottomnav {
+    padding: 30px 50px 90px 50px;
+}
+
+    .bottomnavbutton {
+    width: 150px;
+    font-size: 15px;
+    padding:8px 50px 8px 50px;
+    margin:20px;
+    }
+
+    ul#footericons li a{
+    width: 40px;
+}
+
+} 
+
+
+/* browser, ipad landscape */
+@media screen and (min-width:1024px){
+    .cd-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
+    }
+
+    .nav-buttons {
+    width: 150px;
+    font-size: 15px;
+    padding:8px 50px 8px 50px;
+    }
+
+} 
+
+/* browser */
+@media screen and (min-width:1200px){} 
+
+/* browser */
+@media screen and (min-width:1600px){} 
 
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),

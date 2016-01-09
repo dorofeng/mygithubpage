@@ -546,67 +546,37 @@ ul#footericons .fa {
 @media screen and (min-width:320px){
 
     #header-content {
-    height: 550px;
-}
+    height: 300px;
+    }
     #header-title {
-    padding-top: 100px;
-    margin: 0px 20px;
+    padding-top: 80px;
+    margin: 0px 40px;
+    font-size: 150%;
     }
 
     ul#header-nav li {
     display:none;
     }
 
-    #profilecontainer {
-    width: 100%;
-    height: 350px;
+    #aboutcontainer {
+      padding-top: 50px;
+      padding-bottom: 50px;
     }
 
-    #aboutcontainer #profpic {
-    float:none;
-    margin-right: 0px;
+    #bottomnav {
+     padding: 10px 0px 70px 0px;
     }
 
-    .row {
-        display: block;
-        position: relative;
-        padding-left: 0px;
-    }
-    
-    #didaimg {
-        display:none;
-    }
-
-    #dorologoimg {
-        display:none;
-    }
-
-    #mpslogo {
-        display:none;
-    }
-
-    #rswlogo {
-        display:none;
-    }
-
-    #filters li {
-        padding:3px;
-    }
-
-    #filters li span {
-        display:block;
-        padding:5px 15px;
-        height:auto;
-        width: auto;
-    }
-
-    #portfoliolist .portfolio {
-        width:100%;
+    .bottomnavbutton {
+    font-size: 10px;
+    padding:8px 30px 8px 30px;
+    margin: 0px;
     }
 
     ul#footericons li a{
     width: 15px;
     }
+
 
 }
 
@@ -614,7 +584,7 @@ ul#footericons .fa {
 @media screen and (min-width:480px){
 
     #header-content {
-    height: 700px;
+    height: 400px;
     }
 
     ul#header-nav li {
@@ -626,25 +596,21 @@ ul#footericons .fa {
     font-size: 10px;
     padding:8px 20px 8px 20px;
     }
-    .row {
-    display: block;
-    position: relative;
-    padding-left: 0px;
+
+    #aboutcontainer {
+      padding-top: 70px;
+      padding-bottom: 70px;
     }
 
-    #header-title {
-    padding-top: 130px;
+    #bottomnav {
+     padding: 30px 30px 90px 30px;
+    } 
+    .bottomnavbutton {
+    font-size: 12px;
+    padding: 8px 30px 8px 30px;
+    margin:10px;
     }
 
-    #filters li span {
-        margin:auto;
-        max-width: 80%;
-        padding:10px 15px;
-    }
-
-    #portfoliolist .portfolio {
-        width:80%;
-    }
 
     ul#footericons li a{
     width: 15px;
@@ -659,7 +625,7 @@ ul#footericons .fa {
 /* ipad portrait */
 @media screen and (min-width:768px){
     #header-content {
-    height: 750px;
+    height: 410px;
     }
     .cd-top {
     right: 20px;
@@ -667,8 +633,9 @@ ul#footericons .fa {
     } 
 
     #header-title {
-    padding-top: 200px;
+    padding-top: 100px;
     margin: 0px 20px;
+    font-size: 200%;
     }
 
     ul#header-nav li {
@@ -681,51 +648,20 @@ ul#footericons .fa {
     padding:8px 35px 8px 35px;
     }
 
-    .row {
-    display: block;
-    position: relative;
-    padding-left: 250px;
+    #aboutcontainer {
+      padding-top: 100px;
+      padding-bottom: 100px;
     }
 
-    #profilecontainer {
-        height:0px;
-    }
+    #bottomnav {
+    padding: 30px 50px 90px 50px;
+}
 
-    #aboutcontainer #profpic {
-        float:left;
-        margin-right: 30px;
-    }
-
-    #didaimg {
-        display: inline;
-    }
-
-    #dorologoimg {
-        display: inline;
-    }
-
-    #mpslogo {
-        display: inline;
-    }
-
-    #rswlogo {
-        display: inline;
-    }
-
-    #filters li {
-        padding:10px;
-    }
-
-    #filters li span {
-        font-size: 12px;
-        display:inline;
-        padding:5px 20px;
-        height:37px;
-        width: 150px;
-    }
-
-    #portfoliolist .portfolio {
-        width:40%;
+    .bottomnavbutton {
+    width: 150px;
+    font-size: 15px;
+    padding:8px 50px 8px 50px;
+    margin:20px;
     }
 
     ul#footericons li a{
@@ -750,30 +686,10 @@ ul#footericons .fa {
     padding:8px 50px 8px 50px;
     }
 
-    #portfoliolist .portfolio {
-        width:33%;
-    }
-
 } 
-
-@media screen and (min-width:1150px){
-    #filters li {
-        padding:20px;
-    }
-    #filters li span {
-        font-size: 15px;
-        padding:8px 40px;
-    }
-}
 
 /* browser */
-@media screen and (min-width:1200px){
-
-    .portfolio .text-title {
-    font-size: 21px;
-    }
-
-} 
+@media screen and (min-width:1200px){} 
 
 /* browser */
 @media screen and (min-width:1600px){} 
