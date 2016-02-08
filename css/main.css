@@ -1114,6 +1114,7 @@ ul#footericons .fa {
         text-align: center;
         float: none;
         padding-bottom: 20px;
+        padding-left: 0px;
     }
 
     ul#footericons li a{
@@ -1167,6 +1168,7 @@ ul#footericons .fa {
     #footertext {
         text-align: left;
         float: left;
+        padding-left:30px;
     }
 
     #footericons {
