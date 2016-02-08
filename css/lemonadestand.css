@@ -599,8 +599,21 @@ ul#footericons .fa {
     margin: 0px;
     }
 
+    #footertext {
+        text-align: center;
+        float: none;
+        padding-bottom: 20px;
+        padding-left: 0px;
+    }
+
     ul#footericons li a{
-    width: 15px;
+        width: 30px;
+    }
+
+    #footericons {
+        text-align: center;
+        float:none;
+        display:inline-block;
     }
 
 
@@ -637,14 +650,16 @@ ul#footericons .fa {
     margin:10px;
     }
 
+#footertext {
+        text-align: left;
+        float: left;
+        padding-left:30px;
+    }
 
-    ul#footericons li a{
-    width: 15px;
-}
-
-    ul#footericons li a{
-    width: 30px;
-}
+    #footericons {
+        float:right;
+        text-align: right;
+    }
 
 } 
 
