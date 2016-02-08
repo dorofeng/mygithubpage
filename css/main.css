@@ -1110,8 +1110,21 @@ ul#footericons .fa {
         width:100%;
     }
 
+    #footertext {
+        text-align: center;
+        float: none;
+        padding-bottom: 20px;
+    }
+
     ul#footericons li a{
-    width: 10px;
+        width: 30px;
+    }
+
+    #footericons {
+        opacity: 0.7;
+        text-align: center;
+        float:none;
+        display:inline-block;
     }
 
 }
@@ -1152,14 +1165,15 @@ ul#footericons .fa {
         width:80%;
     }
 
-    ul#footericons li a{
-    width: 15px;
-}
+    #footertext {
+        text-align: left;
+        float: left;
+    }
 
-    ul#footericons li a{
-    width: 30px;
-}
-
+    #footericons {
+        float:right;
+        text-align: right;
+    }
 } 
 
 /* ipad portrait */
