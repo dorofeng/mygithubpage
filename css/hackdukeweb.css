@@ -280,6 +280,13 @@ ul#header-nav li a:hover{
   padding-bottom:50px;
 }
 
+#port-images h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'porterbold' , sans-serif;
+  font-size: 40px;
+  color:#4A4A4A
+}
 
 #bottomnav {
     padding: 30px 50px 90px 50px;
