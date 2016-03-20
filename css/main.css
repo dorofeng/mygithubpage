@@ -716,7 +716,8 @@ ul#social-icons .fa {
     width: 33%;
     display: none;
     overflow: hidden;
-    text-align: left;
+    text-align: center;
+    float:left;
  /*float:left;*/
 }
 
@@ -763,6 +764,10 @@ ul#social-icons .fa {
     z-index: 500;
     padding: 5px 10px;
     text-align: left;
+}
+
+.portfolio a {
+    text-decoration: none;
 }
 
 .portfolio .text-title {

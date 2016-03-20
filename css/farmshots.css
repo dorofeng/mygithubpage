@@ -263,6 +263,25 @@ ul#header-nav li a:hover{
     text-align: left;
 }
 
+#abouttext a {
+  text-decoration: none;
+  color: #4A90E2;
+  transition: all 0.4s ease;
+}
+
+#abouttext a:hover {
+  text-decoration: none;
+  color: #50E3C2;
+  transition: all 0.3s ease 0s;
+}
+
+#abouttext h2 {
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+
 #port-images {
     text-align: center;
     width: 100%;
@@ -274,11 +293,11 @@ ul#header-nav li a:hover{
     width: 100%;
 }
 
-/*.zoom-gallery img {
-  max-width: 375px;
+.zoom-gallery img {
+  max-width: 80%;
   overflow: hidden;
   padding-bottom:50px;
-}*/
+}
 
 .pdf{
   font-family: 'porterbold';
