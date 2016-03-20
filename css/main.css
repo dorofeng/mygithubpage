@@ -287,12 +287,28 @@ ul#header-nav li a:hover{
     text-align: center;
 }
 
-#aboutimg {
+.gradtitle {
+    width:80%;
+    text-align: center;
+    display: inline-block;
+}
+.gradtitle h1 {
+    font-family: 'porterbold';
+    font-size: 4.5vw;
+    text-align: center;
+    background: linear-gradient(330deg, #FF00EF 0%, #00CDEA 50%, #00FFCD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top:100px;
+    padding-bottom: 40px;
+}
+
+/*#aboutimg {
     padding-top:100px;
     padding-bottom: 40px;
     width: 80%;
     text-align: center;
-}
+}*/
 
 #aboutcontainer {
     margin: auto;
@@ -358,7 +374,18 @@ ul#social-icons .fa {
     border-bottom: 1px solid #D8D8D8;
 }
 
-#workimg {
+#resume h1 {
+    font-family: 'porterbold';
+    font-size: 75px;
+    text-align: center;
+    background: linear-gradient(310deg, #FF00EF 0%, #00CDEA 50%, #00FFCD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top:80px;
+    padding-bottom: 10px;
+}
+
+/*#workimg {
     padding-top:100px;
     padding-bottom: 30px;
     min-width: 200px;
@@ -366,7 +393,7 @@ ul#social-icons .fa {
     text-align: center;
     display:block;
     margin:auto;
-}
+}*/
 
 #pdflink {
     font-family: 'porterbold', sans-serif;
@@ -642,8 +669,19 @@ ul#social-icons .fa {
     text-align: center;
 }
 
+#portfolio-section h1 {
+    font-family: 'porterbold';
+    font-size: 75px;
+    text-align: center;
+    background: linear-gradient(340deg, #FF00EF 0%, #00CDEA 50%, #00FFCD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top:80px;
+    padding-bottom: 10px;
+}
+
 /*aligns image */
-#portfolioimg {
+/*#portfolioimg {
     padding-top:100px;
     padding-bottom: 30px;
     min-width: 325px;
@@ -651,7 +689,7 @@ ul#social-icons .fa {
     text-align: center;
     display:block;
     margin:auto;
-}
+}*/
 
 /* portfolio nav buttons */
 #portfolio-section .container-ptfl {
@@ -788,14 +826,26 @@ ul#social-icons .fa {
     border-top: 1px solid #D8D8D8;
 }
 
-#contactimg {
+#contact h1 {
+    font-family: 'porterbold';
+    font-size: 75px;
+    text-align: center;
+    background: linear-gradient(340deg, #FF00EF 0%, #00CDEA 50%, #00FFCD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top:80px;
+    padding-bottom: 10px;
+}
+
+
+/*#contactimg {
     padding-top:100px;
     text-align: center;
     min-width: 350px;
     width: 65%;
     display:block;
     margin:auto;
-}
+}*/
 
 footer {
     background: url(../img/footerbg.png) no-repeat center center;
@@ -1068,9 +1118,18 @@ ul#footericons .fa {
     display:none;
     }
 
-    #profilecontainer {
-    width: 100%;
+    /*#profilecontainer {
+    width: 80%;
     height: 350px;
+    }*/
+
+    .gradtitle {
+    width:none;
+    }
+
+    .gradtitle h1 {
+    font-size: 40px;
+    padding-bottom: 70px;
     }
 
     #aboutcontainer #profpic {
@@ -1083,7 +1142,11 @@ ul#footericons .fa {
         position: relative;
         padding-left: 0px;
     }
-    
+
+    #resume h1 {
+    font-size: 60px;
+    }
+
     #didaimg {
         display:none;
     }
@@ -1113,6 +1176,14 @@ ul#footericons .fa {
 
     #portfoliolist .portfolio {
         width:100%;
+    }
+
+    #portfolio-section h1 {
+    font-size: 50px;
+    }
+
+    #contact h1 {
+    font-size: 50px;
     }
 
     #footertext {
@@ -1160,6 +1231,10 @@ ul#footericons .fa {
     padding-top: 130px;
     }
 
+    #resume h1 {
+    font-size: 75px;
+    }
+
     #filters li span {
         margin:auto;
         max-width: 80%;
@@ -1168,6 +1243,14 @@ ul#footericons .fa {
 
     #portfoliolist .portfolio {
         width:80%;
+    }
+
+    #portfolio-section h1 {
+    font-size: 75px;
+    }
+
+    #contact h1 {
+    font-size: 75px;
     }
 
     #footertext {
@@ -1199,6 +1282,15 @@ ul#footericons .fa {
 
     ul#header-nav li {
     padding:20px;
+    }
+
+    .gradtitle {
+    width:100%;
+    }
+
+    .gradtitle h1 {
+    font-size: 4.5vw;
+    padding-bottom: 40px;
     }
 
     .nav-buttons {
