@@ -1137,6 +1137,14 @@ ul#footericons .fa {
     margin-right: 0px;
     }
 
+    ul#social-icons li a{
+    width: 30px;
+    }
+
+    ul#social-icons .fa {
+    font-size: 20px;
+}
+
     .row {
         display: block;
         position: relative;
@@ -1229,6 +1237,14 @@ ul#footericons .fa {
 
     #header-title {
     padding-top: 130px;
+    }
+
+    ul#social-icons li a{
+    width: 40px;
+    }
+
+    ul#social-icons .fa {
+    font-size: 30px;
     }
 
     #resume h1 {
