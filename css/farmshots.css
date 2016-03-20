@@ -409,7 +409,7 @@ footer {
 #footericons {
     list-style: none;
     float: right;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 
 #footericons li {
@@ -420,8 +420,8 @@ ul#footericons li a{
     text-decoration: none;
     display: inline-block;
     vertical-align: top;
-    width: 40px;
-    padding: 0px 15px 20px 15px;
+    width: 25px;
+    padding: 0px 5px 20px 5px;
 }
 
 ul#footericons li a span {
@@ -435,7 +435,7 @@ ul#footericons li a:hover span{
 
 ul#footericons .fa {
     font-family: "FontAwesome";
-    font-size: 30px;
+    font-size: 25px;
     color: #FFFFFF;
 }
 
@@ -633,7 +633,7 @@ ul#footericons .fa {
     }
 
     ul#footericons li a{
-        width: 30px;
+        width: 40px;
     }
 
     #footericons {
