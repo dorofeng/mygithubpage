@@ -275,7 +275,7 @@ ul#header-nav li a:hover{
 }
 
 .zoom-gallery img {
-  max-width: 375px;
+  max-width: 70%;
   overflow: hidden;
   padding-bottom:50px;
 }
@@ -589,6 +589,10 @@ ul#footericons .fa {
       padding-bottom: 50px;
     }
 
+    .zoom-gallery img {
+    max-width: 100%;
+    }
+
     #bottomnav {
      padding: 10px 0px 70px 0px;
     }
@@ -641,6 +645,11 @@ ul#footericons .fa {
       padding-bottom: 70px;
     }
 
+    .zoom-gallery img {
+    max-width: 80%;
+    }
+
+
     #bottomnav {
      padding: 30px 30px 90px 30px;
     } 
@@ -683,6 +692,10 @@ ul#footericons .fa {
     padding:20px;
     }
 
+    .zoom-gallery img {
+    max-width: 70%;
+    }
+
     .nav-buttons {
     width: 100px;
     font-size: 14px;
@@ -719,6 +732,10 @@ ul#footericons .fa {
     width: 60px;
     right: 30px;
     bottom: 30px;
+    }
+
+    .zoom-gallery img {
+    max-width: 700px;
     }
 
     .nav-buttons {

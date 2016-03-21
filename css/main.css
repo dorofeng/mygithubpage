@@ -403,6 +403,12 @@ ul#social-icons .fa {
     text-align: center;
     margin: auto;
     width: auto;
+    transition: all 0.3s ease 0s;
+}
+
+#pdflink:hover {
+    color:#6D74EC;
+    transition: all 0.3s ease 0s;
 }
 
 .faa-horizontal {
