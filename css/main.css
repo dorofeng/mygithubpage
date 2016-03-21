@@ -872,6 +872,12 @@ footer {
     padding-left: 30px;
 }
 
+#footertext a{
+    text-decoration: none;
+    opacity: 0.8;
+    color:#00FFCD;
+}
+
 @-webkit-keyframes pulse {
   0% {
     -webkit-transform: scale(1.1);
