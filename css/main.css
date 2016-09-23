@@ -209,10 +209,10 @@ body {
 }
 
 #header-title {
+    padding-top: 300px;
     font-size: 200%;
     font-family: 'porterbold', sans-serif;
     text-align: center;
-    padding-top: 200px;
     margin: 0px 0px;
     color: #FFFFFF;
 }
@@ -252,7 +252,56 @@ body {
     100% { opacity:1; }
 }
 
-ul#header-nav {
+nav {
+    background: transparent;
+    transition: all 0.3s ease 0s;
+    opacity: 1;
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+
+    position: fixed;
+    top: 0;
+    text-align: right;
+    z-index: 1000;
+}
+
+nav a{
+    text-decoration: none;
+    width: 150px;
+    font-family: 'porterbold', sans-serif;
+    padding:8px 25px 8px 25px;
+    font-size: 12px;
+    color: #FFFFFF;
+    opacity: 0.75;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    transition: all 0.3s ease;
+    opacity: 1;
+}
+
+.scrolled{
+    transition: all 0.3s ease 0s;
+    background: white;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+    opacity: 1;
+}
+
+.scrolled a{
+    color: #4A4A4A;
+    opacity:1;
+    transition: all 0.3s ease;
+}
+
+.scrolled a:hover {
+    transition: all 0.3s ease;
+    color: #4A90E2;
+}
+
+/*ul#header-nav {
     text-align: center;
     list-style: none;
     padding-top: 100px;
@@ -281,7 +330,7 @@ ul#header-nav li a:hover{
     text-decoration: none;
     padding:8px 50px 8px 50px;
     border: 2px solid #FFFFFF;
-}
+}*/
 
 #about .container {
     text-align: center;
@@ -1130,6 +1179,10 @@ ul#footericons .fa {
     display:none;
     }
 
+    nav {
+        border-bottom: none; 
+    }
+
     /*#profilecontainer {
     width: 80%;
     height: 350px;
@@ -1237,10 +1290,10 @@ ul#footericons .fa {
     padding:10px;
     }
 
-    .nav-buttons {
-    font-size: 10px;
-    padding:8px 20px 8px 20px;
+    nav {
+        border-bottom: 1px solid rgba(255,255,255,0.5);
     }
+
     .row {
     display: block;
     position: relative;
@@ -1248,7 +1301,7 @@ ul#footericons .fa {
     }
 
     #header-title {
-    padding-top: 130px;
+    padding-top: 230px;
     }
 
     ul#social-icons li a{
@@ -1304,7 +1357,7 @@ ul#footericons .fa {
     } 
 
     #header-title {
-    padding-top: 200px;
+    padding-top: 300px;
     margin: 0px 20px;
     }
 
@@ -1323,8 +1376,8 @@ ul#footericons .fa {
 
     .nav-buttons {
     width: 100px;
-    font-size: 14px;
-    padding:8px 35px 8px 35px;
+    font-size: 13px;
+    padding:8px 25px 8px 25px;
     }
 
     .row {
@@ -1392,8 +1445,8 @@ ul#footericons .fa {
 
     .nav-buttons {
     width: 150px;
-    font-size: 15px;
-    padding:8px 50px 8px 50px;
+    font-size: 13px;
+    padding:8px 25px 8px 25px;
     }
 
     #portfoliolist .portfolio {
