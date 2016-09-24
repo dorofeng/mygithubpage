@@ -265,15 +265,23 @@ body {
     font-size: 14px;
 }
 
+#popup span{
+        font-family: 'ralewaysemibold', sans-serif;
+    }
+
 #popup-close {
     position: absolute;
-    color: #4A4A4A;
+    color: #acacac;
     right: 12px;
     top: 10px;
     text-align: center;
     font-size: 20px;
     font-family: 'porterbold', sans-serif;
     cursor:pointer;
+}
+
+#popup-close:hover {
+    color: #4A4A4A;
 }
 
 #header-content {
@@ -1477,6 +1485,7 @@ ul#footericons .fa {
     #popup p{
     font-size: 14px;
     }
+
 
     ul#header-nav li {
     padding:20px;
