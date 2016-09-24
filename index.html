@@ -13,7 +13,15 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    
+    <div style="display:none" id="hover"></div>
+    <div style="display:none" id="popup">
+      <div>
+        <div id="popup-close">X</div>
+        <h2>My updated portfolio has moved here:</h2><br>
+        <h2><a target="_blank" href="http://www.dorothyfeng.com/">www.dorothyfeng.com</a></h2><br>
+        <p>This website is outdated, but I'm keeping it up as part of my portfolio as a designer and developer. All future updates will be located in the link above. Feel free to check out the page and the source code! :)</p>
+      </div>
+    </div>
   </head>
 
   <body>
@@ -22,6 +30,7 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
+
     <nav>
       <ul id="header-nav">
         <li><a href="#about" class = "nav-buttons">ABOUT</a></li>
@@ -30,6 +39,7 @@
         <li><a href="#contact" class = "nav-buttons">CONTACT</a></li>
       </ul>
     </nav>
+
     <header>
         <div id="header-content">
           <div id="header-title">
@@ -50,7 +60,7 @@
             <img src="img/profilepic.png" id="profpic" alt="Profile Photo"/>
         </div>
           <div id="abouttext">
-            <p>I am currently a junior at Duke University pursuing dual majors in Computer Science and Psychology, and an Innovation & Entrepreneurship Certificate. I'm a strong believer in a multidisciplinary approach to solving problems. Art and design have been lifelong passions of mine, but more recently I have become interested in intersecting design, psychology, and technology, namely in web/mobile development and product design. <br><br>When I'm not learning code or picking up freelance art/design gigs, I like to golf, bake pumpkin-flavored anything, and obsess over Game of Thrones. </p>
+            <p>I am currently a junior at Duke University pursuing dual majors in Computer Science and Psychology, and obtaining an <a target="_blank" href="https://entrepreneurship.duke.edu/">Innovation & Entrepreneurship Certificate</a>. I'm a strong believer in a multidisciplinary approach to solving problems. Art and design have been lifelong passions of mine, but more recently I have become interested in intersecting design, psychology, and technology, namely in <a target="_blank" href="https://github.com/dorofeng">web/mobile development</a> and product design. <br><br> At Duke, I organize and direct design and branding for <a target="_blank" href="https://www.hackduke.org/">HackDuke</a>, the premier collegiate hackathon addressing social good. I founded and organized <a target="_blank" href="https://www.hackduke.org/ideate/">IDEATE</a>, Duke's first conference in design thinking and innovation. I am a Creative Director for <a target="_blank" href="https://studentaffairs.duke.edu/ucae/programs/dida">Duke Innovative Design Agency</a>. I design stuff and give tech support on new technologies like 3D printing and laser cutting at the <a target="_blank" href="https://colab.duke.edu/">Innovation Co-Lab</a>.<br><br>When I'm not learning code or picking up freelance art/design gigs, I love golfing, baking, traveling, and crafting new experiences. </p>
           </div>
           <ul id="social-icons">
             <li><a href="https://www.behance.net/dorofengc19e"><span class="fa fa-behance"></span></a></li>
@@ -388,6 +398,27 @@
     <script src="js/main.js"></script>
     <script src="js/typed.js" type="text/javascript"></script>
     <script>
+      $(document).ready(function() {
+        $("#popup").delay(1000).fadeIn();
+        $("#hover").delay(1000).fadeIn();
+
+      $('#popup-close').click(function(e) // You are clicking the close button
+      {
+        $('#popup').fadeOut(); // Now the pop up is hiden.
+        $('#hover').fadeOut();
+      });
+      $('#popup').click(function(e)
+      {
+        $('#popup').fadeOut(); 
+        $('#hover').fadeOut();
+      });
+      $('#hover').click(function(e){
+        $(this).fadeOut();
+        $('#popup').fadeOut();
+      });
+    });
+    </script>
+    <script>
     $(document).scroll(function() {
     if ($(this).scrollTop() > 0) {
         $('nav').addClass('scrolled');
@@ -418,7 +449,6 @@
       }
     });
   -->
-
     <script>
       $(function(){
         $(".subtitle").typed({
